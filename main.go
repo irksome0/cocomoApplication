@@ -11,7 +11,7 @@ import (
 func main() {
 	var modelType string
 	for {
-		fmt.Print("Enter a model type(basic/intermediate/advanced)\n B/I/A : ")
+		fmt.Print("Enter a model type(basic/intermediate)\n B/I : ")
 		fmt.Scan(&modelType)
 		switch modelType {
 		case "B":
@@ -19,8 +19,6 @@ func main() {
 			return
 		case "I":
 			intermediateModel()
-			return
-		case "A":
 			return
 		default:
 			fmt.Println("Try again...")
