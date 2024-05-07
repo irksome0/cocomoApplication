@@ -68,7 +68,7 @@ func basicModel() {
 	TM := float64(coefficients[2]) * math.Pow(PM, float64(coefficients[3]))
 	SS := PM / TM
 	P := size / float64(PM)
-	fmt.Println(PM, TM, SS, P, coefficients)
+	fmt.Printf("Labor intensity: %f\nDevelopment duration: %f\nAmount of developers: %f\nEfficiency: %f\n", PM, TM, SS, P)
 }
 func intermediateModel() {
 
@@ -146,5 +146,5 @@ func intermediateModel() {
 	}
 
 	PM := productOfCoefs * float64(coefficients[0]) * math.Pow(size, float64(coefficients[1]))
-	fmt.Println(PM)
+	fmt.Printf("Labor intensity: %f\n", PM)
 }

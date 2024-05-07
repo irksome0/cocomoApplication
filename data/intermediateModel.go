@@ -2,9 +2,9 @@ package data
 
 // INTERMEDIATE MODEL TYPES
 var INTERMEDIATE = map[string][2]float32{
-	"ORGANIC":         {3.2, 1.05},
-	"TYPE_SEMIDETACH": {3.0, 1.12},
-	"TYPE_EMBEDDED":   {2.8, 1.2},
+	"ORGANIC":    {3.2, 1.05},
+	"SEMIDETACH": {3.0, 1.12},
+	"EMBEDDED":   {2.8, 1.2},
 }
 
 // RATINGS OF CHARACTERISTICS
